@@ -2,14 +2,6 @@
 
 PrettyLogger is a simple modular python logger, primarily made for easy implementation in web scraping and automated checkout scripts.
 
-## Installation
-
-Use the package manager pip to install PrettyLogger.
-
-```bash
-pip install foobar
-```
-
 ## Usage
 
 ```python
@@ -25,9 +17,8 @@ self.info("Loading profiles")
 self.check("Product Name")
 self.success("Product Name", "Profile 1")
 self.stock("Product Name")
-![Example](/assets/images/example.png)
-
 ```
+![Example](/assets/images/example.png)
 
 ## Contributing
 As I use this for my own projects, it may not be best suited for every use case. If you have any ideas, just open an issue and tell me what you think.
